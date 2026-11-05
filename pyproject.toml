@@ -1,0 +1,17 @@
+[project]
+name = "remote-yj"
+version = "0.0.1"
+description = "Graduate research group project"
+readme = "README.md"
+authors = [
+    { name = "Syndra", email = "1721848162@qq.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+remote-yj = "remote_yj:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
